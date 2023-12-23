@@ -1,0 +1,50 @@
+Local:
+> starter-movie-front-end@0.1.0 start
+> react-scripts start
+
+node:internal/modules/cjs/loader:598
+      throw e;
+      ^
+
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/tokenize' is not defined by "exports" in C:\Users\P2178259\Desktop\Thinkful\WeLoveMovies-front-end\node_modules\postcss-safe-parser\node_modules\postcss\package.json
+    at exportsNotFound (node:internal/modules/esm/resolve:294:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:641:9)
+    at resolveExports (node:internal/modules/cjs/loader:591:36)
+    at Module._findPath (node:internal/modules/cjs/loader:668:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1130:27)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\P2178259\Desktop\Thinkful\WeLoveMovies-front-end\node_modules\postcss-safe-parser\lib\safe-parser.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14) {
+  code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+}
+
+Node.js v20.10.0
+PS C:\Users\P2178259\Desktop\Thinkful\WeLoveMovies-front-end> 
+
+On Render:
+
+ react-scripts start
+node:internal/modules/cjs/loader:598
+      throw e;
+      ^
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './lib/tokenize' is not defined by "exports" in /opt/render/project/src/node_modules/postcss-safe-parser/node_modules/postcss/package.json
+    at exportsNotFound (node:internal/modules/esm/resolve:294:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:641:9)
+    at resolveExports (node:internal/modules/cjs/loader:591:36)
+    at Module._findPath (node:internal/modules/cjs/loader:668:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1130:27)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (/opt/render/project/src/node_modules/postcss-safe-parser/lib/safe-parser.js:1:17)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14) {
+  code: 'ERR_PACKAGE_PATH_NOT_EXPORTED'
+}
+Node.js v20.10.0
+==> Using Node version 20.10.0 (default)
+==> Docs on specifying a Node version: https://render.com/docs/node-version
+==> Running 'npm start'
+> starter-movie-front-end@0.1.0 start
+> react-scripts start
